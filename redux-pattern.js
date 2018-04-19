@@ -35,7 +35,7 @@ function render(){
   container.innerHTML = store.getState().count;
 }
 
-const store = createStore(changeCount);
+// const store = createStore(changeCount);
 let button = document.getElementById('button');
 
 button.addEventListener('click', function() {
